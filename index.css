@@ -1,0 +1,33 @@
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background: #29293d;
+}
+.hero {
+    background: linear-gradient(rgb(245, 245, 245, 0.4), rgb(245, 245, 245, 0.4)),
+    url("https://res.cloudinary.com/cremz/image/upload/q_100/v1543117156/Projects/numbers.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; 
+};
+
+#displayNumberFactDiv, #displayYearFactDiv, #displayMathFactDiv {
+    display: none;
+}
+
+h2, .pone {
+    color: #f2f2f2;
+    
+}
+
+.field {
+    margin-top: 10px;
+}
+
+h3, p {
+    color: #391326;
+}

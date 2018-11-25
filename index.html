@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <!--  Meta  -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet"> 
+  <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+  <title>MeetTheNumbers App</title>
+  </head>
+
+ 
+  <body>
+        
+      <section class="hero is-medium">
+          <div class="hero-body">
+              <div class="container">
+                  <h1 class="title has-text-black-bis">MeetTheNumbers App</h1>
+                    <h2 class="subtitle has-text-black">Discover facts about numbers</h2>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container">
+                <h1 class="is-size-1 is-size-5-mobile has-text-white is-italic has-text-weight-bold">Want to know a fun/interesting fact about a number?</h1>
+                <p class="is-size-3 is-size-6-mobile has-text-weight-bold pone">Use the app below and find out</p>
+                <p class="is-size-4 is-size-6-mobile is-italic has-text-weight-bold pone">Challenge: post a number fact each day on Facebook with the #meethenumbers and pass the challenge to other users.</p>
+            </div>
+        </section>
+
+      <section class="section" id="numberFacts1">
+          <div class="container">
+              <div class="columns">
+
+                  <div class="column has-background-success">
+
+                    <h3 class="is-size-5">Type a number here and see what you get</h3>
+
+                      <div class="field">
+
+                          <div class="control">
+                              <input class="input" type="number" placeholder="Type a number here" id="justNumber">
+                            </div>
+                        </div>
+
+                        <div id="displayNumberFactDiv" class="displayDiv">
+                            <p id="displayNumberFact" class="displayFact"></p>
+                        </div>
+
+                  </div>
+
+                  <div class="column has-background-success">
+
+                        <h3 class="is-size-5">Type a number here and get a math fact</h3>
+
+                        <div class="field">
+  
+                            <div class="control">
+                                <input class="input" type="number" placeholder="Type a number here" id="mathFact">
+                              </div>
+                          </div>
+  
+                          <div id="displayMathFactDiv" class="displayDiv">
+                              <p id="displayMathFact" class="displayFact"></p>
+                          </div>
+  
+                  </div>
+              </div>
+              
+          </div>
+
+          
+      </section>
+
+      <section class="section" id="numberFacts2">
+            <div class="container">
+                <div class="columns">
+
+                    <div class="column is-half is-offset-one-quarter has-background-success">
+  
+                          <h3 class="is-size-5">Type a year here and get a cool fact you should now</h3>
+  
+                          <div class="field">
+    
+                              <div class="control">
+                                  <input class="input" type="number" placeholder="Type a number here" id="yearFact">
+                                </div>
+                            </div>
+    
+                            <div id="displayYearFactDiv">
+                                <p id="displayYearFact"></p>
+                            </div>
+    
+                    </div>
+                </div>
+                
+            </div>
+  
+            
+        </section>
+
+        <footer class="footer has-background-black">
+            <p class="has-text-white has-text-centered">Coded by Cremzoo</p>
+            <p class="has-text-white has-text-centered"><a href="https://cremona-matei.netlify.com/" target="_blank">Find me here</a></p>
+        </footer>
+      <script src="js/index.js"></script>
+  </body>
+
+  </html>
