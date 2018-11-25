@@ -1,4 +1,4 @@
-const url = "http://numbersapi.com/";
+const url = "http://crossorigin.me/http://numbersapi.com/";
 
 let justNumber = document.querySelector("#justNumber");
 let displayNumberFactDiv = document.querySelector("#displayNumberFactDiv");
